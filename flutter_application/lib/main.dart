@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/Container_Sized.dart';
+// import 'package:flutter_application_1/widgets/Container_Sized.dart';
+import 'package:flutter_application_1/widgets/rowcolswrap.dart';
 
 void main(){
   runApp(MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,primaryColor: Colors.deepPurple),
-        home: Container_Sized(),
+        home: RowsCols(),
     );
   }
 } 
