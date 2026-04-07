@@ -1,26 +1,38 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_application_1/widgets/Container_Sized.dart';
-import 'package:flutter_application_1/widgets/rowcolswrap.dart';
+import 'package:flutter_application_1/widgets/button.dart';
 
-void main(){
-  runApp(MyApp());
+void main() {
+  runApp(const MyApp());
 }
 
-//Types of widgets
-//Stateless - not changable
-//StateFull - changable
-
-class MyApp extends StatelessWidget{
+// Stateless Widget
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
-  Widget build(BuildContext context)
-  {
-    // return Text("Pratik Bavche",textDirection:TextDirection.ltr);
+  Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+
+      // Updated Theme 
       theme: ThemeData(
-        brightness: Brightness.dark,primaryColor: Colors.deepPurple),
-        home: RowsCols(),
+        brightness: Brightness.dark,
+
+        // Modern way
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Color.fromARGB(255, 148, 226, 31),
+          brightness: Brightness.dark,
+        ),
+
+        // AppBar Theme (Important Fix)
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color.fromARGB(255, 148, 226, 31),
+          foregroundColor: Colors.black, // text/icon color
+          centerTitle: true,
+        ),
+      ),
+
+      home: const ButtonWidget(),
     );
   }
-} 
+}
