@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/button.dart';
+import 'package:flutter_application_1/widgets/list_grid.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: const ButtonWidget(),
+      home: const ListGrid(),
     );
   }
 }
