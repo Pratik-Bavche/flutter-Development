@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/widgets/SnackBar.dart';
 import 'package:flutter_application_1/widgets/button.dart';
 import 'package:flutter_application_1/widgets/list_grid.dart';
 
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: const ListGrid(),
+      home: const SnackbarWidget(),
     );
   }
 }
