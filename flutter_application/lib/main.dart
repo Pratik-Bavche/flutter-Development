@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/SnackBar.dart';
-import 'package:flutter_application_1/widgets/button.dart';
-import 'package:flutter_application_1/widgets/list_grid.dart';
+import 'package:flutter_application_1/widgets/dismissible.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +32,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: const SnackbarWidget(),
+      home: const DismissibleWidget(),
     );
   }
 }
