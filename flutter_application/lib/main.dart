@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/dismissible.dart';
+import 'package:flutter_application_1/widgets/drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: const DismissibleWidget(),
+      home: const DrawerWidget(),
     );
   }
 }
