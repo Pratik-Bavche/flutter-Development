@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/alert.dart';
+import 'package:flutter_application_1/widgets/animated_text.dart';
 import 'package:flutter_application_1/widgets/bottomsheet.dart';
 import 'package:flutter_application_1/widgets/dismissible.dart';
 import 'package:flutter_application_1/widgets/drawer.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
   ),
 ),
 
-      home: const BottomWidget(),
+      home: const AnimatedTextWidget(),
     );
   }
 }
