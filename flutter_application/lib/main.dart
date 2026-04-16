@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/alert.dart';
 import 'package:flutter_application_1/widgets/animated_text.dart';
+import 'package:flutter_application_1/widgets/bottomnav.dart';
 import 'package:flutter_application_1/widgets/bottomsheet.dart';
 import 'package:flutter_application_1/widgets/dismissible.dart';
 import 'package:flutter_application_1/widgets/drawer.dart';
@@ -28,13 +29,13 @@ class MyApp extends StatelessWidget {
   ),
 
   appBarTheme: const AppBarTheme(
-    backgroundColor: Colors.brown, 
+    backgroundColor: Color.fromARGB(255, 237, 89, 35), 
     // foregroundColor: Colors.white,  
     centerTitle: true,
   ),
 ),
 
-      home: const AnimatedTextWidget(),
+      home: const BottomNav(),
     );
   }
 }
