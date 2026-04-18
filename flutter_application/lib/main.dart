@@ -5,6 +5,7 @@ import 'package:flutter_application_1/widgets/bottomnav.dart';
 import 'package:flutter_application_1/widgets/bottomsheet.dart';
 import 'package:flutter_application_1/widgets/dismissible.dart';
 import 'package:flutter_application_1/widgets/drawer.dart';
+import 'package:flutter_application_1/widgets/dropdown.dart';
 import 'package:flutter_application_1/widgets/image.dart';
 
 void main() {
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
   ),
 ),
 
-      home: const BottomNav(),
+      home: const DropDownWidget(),
     );
   }
 }
