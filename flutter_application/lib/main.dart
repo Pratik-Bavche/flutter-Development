@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/alert.dart';
-import 'package:flutter_application_1/widgets/animated_text.dart';
-import 'package:flutter_application_1/widgets/bottomnav.dart';
-import 'package:flutter_application_1/widgets/bottomsheet.dart';
-import 'package:flutter_application_1/widgets/dismissible.dart';
-import 'package:flutter_application_1/widgets/drawer.dart';
-import 'package:flutter_application_1/widgets/dropdown.dart';
-import 'package:flutter_application_1/widgets/image.dart';
+// import 'package:flutter_application_1/widgets/alert.dart';
+// import 'package:flutter_application_1/widgets/animated_text.dart';
+// import 'package:flutter_application_1/widgets/bottomnav.dart';
+// import 'package:flutter_application_1/widgets/bottomsheet.dart';
+// import 'package:flutter_application_1/widgets/dismissible.dart';
+// import 'package:flutter_application_1/widgets/drawer.dart';
+// import 'package:flutter_application_1/widgets/dropdown.dart';
+import 'package:flutter_application_1/widgets/form.dart';
+// import 'package:flutter_application_1/widgets/image.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
   ),
 ),
 
-      home: const DropDownWidget(),
+      home: const FormWidget(),
     );
   }
 }
