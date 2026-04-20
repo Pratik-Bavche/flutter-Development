@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_application_1/widgets/drawer.dart';
 // import 'package:flutter_application_1/widgets/dropdown.dart';
 import 'package:flutter_application_1/widgets/form.dart';
+import 'package:flutter_application_1/widgets/stackbar.dart';
 // import 'package:flutter_application_1/widgets/image.dart';
 
 void main() {
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
   ),
 ),
 
-      home: const FormWidget(),
+      home: const StackWidget(),
     );
   }
 }
