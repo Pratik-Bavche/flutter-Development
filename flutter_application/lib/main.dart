@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_application_1/widgets/dropdown.dart';
 import 'package:flutter_application_1/widgets/form.dart';
 import 'package:flutter_application_1/widgets/stackbar.dart';
+import 'package:flutter_application_1/widgets/tabBar.dart';
 // import 'package:flutter_application_1/widgets/image.dart';
 
 void main() {
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
   ),
 ),
 
-      home: const StackWidget(),
+      home: const tabBarWidget(),
     );
   }
 }

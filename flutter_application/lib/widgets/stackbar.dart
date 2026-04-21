@@ -15,7 +15,7 @@ class StackWidget extends StatelessWidget {
           Stack(children: [
             Positioned(
               left: 40,
-              bottom: 20,
+              bottom: 20, 
               right: 50,
               child: Container(
                 height: 400,
